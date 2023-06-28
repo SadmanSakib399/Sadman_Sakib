@@ -1,0 +1,348 @@
+:root {
+    --bg1:#212121;
+    --bg2:#323232;
+    --c-1:#33ff8A;
+    --c-2:#149CEA;
+    --c-3:#ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+}
+
+/********** ID **********/
+
+#My-works {
+    margin: 10% 10% ;
+    height: 1000px;
+}
+
+#social-test {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+} 
+
+
+/********** R-CLASS **********/
+
+.subtitle1 {
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle2 {
+    background: linear-gradient(
+      to right, 
+      hsla(98, 100%, 62%, 0.7), 
+      hsla(204, 100%, 59%, 0.7)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle3 {
+    background: linear-gradient(
+        to right, 
+        hsla(204, 100%, 51%, 0.7), 
+        hsla(115, 90%, 51%, 0.7)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg2 {
+    background-color: var(--bg2);
+    padding: 0 0 .5rem 0;
+}
+
+.r-heading {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.r-p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* separators */
+.sep {
+    border: 0; 
+    height: 2px; 
+    width: 60%;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+}
+
+.sep2 {
+    width: 50%;
+}
+
+.sep3 {
+    width: 40%;
+}
+
+.sep-p {
+    position: absolute;
+    left:0px;
+}
+
+/***** Navbar *****/
+.navbar-margin {
+    margin: 2rem 5%; 
+    padding: 0 1rem;
+}
+
+.nav-b-img {
+    width: 3.5rem;
+    transition: .5s;
+    /* &:hover {
+        transition: .5s;
+        box-shadow:11px 11px 22px #073f5f,-11px -11px 22px #1dfbff;
+    }  */
+}
+
+/***** Profile *****/
+
+.profile {
+    margin: 15% 5%;
+    margin-bottom: 15rem;
+    background-color: var(--bg);
+    color: var(--c-3);
+    cursor:pointer;
+    display: grid;
+    place-items: center;
+    font-family: "Inter", "DM Sans", Arial, sans-serif;
+}
+  
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border: 2px solid var(--c-2);
+    border-radius: 100%;
+    transition: .11s;
+    &:hover {
+        border: 2px solid var(--c-1);
+    }
+}
+
+.content {
+    text-align: center;
+    margin: 0 3rem;
+    position: relative;
+    left: .5%;
+}
+
+/*social icons*/
+  
+.center {
+    display: table;
+    width: 100%;
+}
+.li {
+    color: var(--c-2);
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 35px;
+    padding: 1%;
+    border: 1px solid var(--c-2);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+    position: relative;
+    right: 3%;
+    &:hover {
+      color: var(--c-3);
+      border: 1px solid var(--c-1);
+      width: 55px;
+      height: 55px;
+    }  
+}
+  
+.social:hover > li {
+    opacity: 0.5;
+}
+  
+.social:hover > li:hover {
+    opacity: 1;
+}
+  
+.facebook:hover{
+    background-color: #4267B2;
+}
+  
+.instagram:hover {
+    background-color: #E1306C;
+}  
+  
+.github:hover {
+    background-color: black;
+}
+  
+.youtube:hover {
+    background-color: #FF0000;
+}
+  
+.telegram:hover {
+    background-color: #229ED9;
+}
+  
+.spotify:hover {
+    background-color: #1DB954;
+}  
+
+/***** About me *****/
+
+.about-me-m {
+    margin: 3.5rem 20%;  
+}
+
+.m-a {
+    margin-bottom:0;
+}
+
+/***** Portfolio *****/
+
+.skill-heading {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.p-container {
+    margin: 1rem 10%;
+}
+
+.p-h3-size {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.skill-2-m {
+    margin: 3rem 0 5rem 0
+}
+
+/* website card */
+
+.card-p {
+    width: 90%;
+    height: 80%;
+    background: #323232;
+    border: 1px solid var(--c-1);
+    border-radius: 0;
+    box-shadow: 15px 15px 0 -1.5px #323232, 15px 15px 0 0 #149CEA;
+    display: grid;
+    margin: 3rem;
+    transition: .20s;
+
+}
+
+.card-p:hover {
+    width: 95%;
+    height: 90%;
+    transition: .50s;
+    box-shadow:  11px 11px 22px #073f5f,
+    -11px -11px 22px #1dfbff;
+
+}
+
+.content {
+    margin: 1rem;
+}
+
+.image-11 {
+    width: 100%;
+    height: 100%;
+}
+
+.yt-size {
+    padding-top: 2rem;
+    height: 300px;
+    width: 500px;
+}
+
+/***** Contact me *****/
+
+.contact-head1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-head2 {
+    font-weight: 700;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+}
+
+.contact-m {
+    margin: 5% 15% 5% 20%;
+}
+
+.contact {
+    border-radius: 100%;
+    background-color: #393939;
+    padding: 1.5rem 1rem; 
+    margin:.5rem;
+}
+
+.contact-d {
+    display: inline-block;
+}
+
+/***** footer *****/
+
+.footer-ns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 4rem;
+}
+
+
+.footer {
+    background: #1f1f1f;
+}
+
+.footer-li {
+    background: linear-gradient(
+      to right, 
+      hsla(98, 100%, 62%, 0.7), 
+      hsla(204, 100%, 59%, 0.7)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    list-style-type: none;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    transition: ease .3s;
+
+}
+  
+
+.f-social-icons {
+    margin-top: 8px;
+}

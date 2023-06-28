@@ -1,0 +1,125 @@
+@media only screen and (max-width: 600px) {
+
+    /********** navbar **********/
+
+    .nav-item {
+        margin: 1rem 0;
+        text-align: center;
+    }
+    
+    /********** home **********/ 
+
+    .profile {
+        margin: 30% 10% 25% 10%; 
+    }
+
+    .card-custom {
+        margin: 0 auto ;
+    }
+
+    .phone-title {
+        font-size: 2.5rem;
+        margin: 0rem 0 1rem 0;
+    }
+
+    .phone-p-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile-img {
+        border-radius: 100%;
+        border: 3px solid var(--c-2);
+    }
+
+    .circle:nth-child(2) {
+        bottom: 15px;
+        right: -16px;
+        animation-name: move-down1;   
+    }
+
+    .card-inner {
+        border-radius: 100%;
+        width: 100%;
+        height: 80%;
+    }
+
+    .li {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        right: 10%;
+        &:hover {
+            width: 42px;
+            height: 42px;
+        }  
+    }
+
+    /********** About-Me **********/
+
+    .about-me-m {
+        margin: 3.5rem 10%;
+    }
+
+    /********** my work **********/
+    .card-p {
+        margin: 5% auto;
+    }
+
+    .skill-heading {
+        margin: 5rem 0 3rem 0;
+    }    
+
+    .yt-size {
+        height: 130%;
+        width: 100%;
+        padding: 2.5rem 0;
+    }
+
+    /********** Contact Me **********/
+
+    .contact-m {
+        margin: 5% 12%;
+    }
+
+    .form {
+        padding: 5%;
+    }
+
+    .contact-head2 {
+        font-weight: 700;
+        margin-top: 2.5rem;
+        font-size: 1.8rem;
+    }
+
+    .display {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .phone-num {
+        align-items:baseline;
+    }
+
+    .add-e-p {
+        position: relative;
+        top: 10px;
+    }
+
+
+    /********** Footer **********/
+      
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
