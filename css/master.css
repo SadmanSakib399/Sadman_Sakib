@@ -111,10 +111,10 @@ body {
 .nav-b-img {
     width: 3.5rem;
     transition: .5s;
-    /* &:hover {
+    &:hover {
         transition: .5s;
-        box-shadow:11px 11px 22px #073f5f,-11px -11px 22px #1dfbff;
-    }  */
+        filter: drop-shadow(-4px -5px 22px #1dfbff);
+    } 
 }
 
 /***** Profile *****/
