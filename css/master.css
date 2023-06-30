@@ -252,7 +252,6 @@ body {
     display: grid;
     margin: 3rem;
     transition: .20s;
-
 }
 
 .card-p:hover {
@@ -317,9 +316,21 @@ body {
     margin-bottom: 4rem;
 }
 
+.f-nav-custom{
+    &:hover{
+        background: linear-gradient(
+            to right, 
+            hsl(98, 100%, 62%), 
+            hsl(204, 100%, 59%)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
 
 .footer {
-    background: #1f1f1f;
+    background:var(--bg1);
 }
 
 .footer-li {
